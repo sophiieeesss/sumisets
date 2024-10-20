@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap'); /* Funky bubble letters font */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,7 +14,7 @@ header {
 }
 
 .logo {
-    width: 30px; /* Set a smaller size for the logo */
+    max-width: 50px; /* Set a smaller size for the logo */
     height: auto; /* Maintain aspect ratio */
     margin-right: 15px; /* Space between logo and title */
 }
@@ -24,7 +26,8 @@ header {
 
 h1 {
     margin: 0;
-    font-size: 2.5em; /* Header size */
+    font-size: 3em; /* Bigger header size */
+    font-family: 'Freckle Face', cursive; /* Use the funky font */
 }
 
 h2 {
@@ -38,14 +41,16 @@ nav {
 }
 
 button {
+    display: block; /* Make buttons span full width */
+    width: 100%; /* Full width */
     background-color: #f0a3a4; /* Button color */
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
-    margin: 5px;
+    padding: 15px 20px; /* Increased padding for bigger buttons */
+    margin: 5px 0; /* Space between buttons */
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.2em; /* Bigger font size for buttons */
 }
 
 button:hover {
