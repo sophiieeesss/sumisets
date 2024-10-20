@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap'); /* Funky bubble letters font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap'); /* Classy bubble letters font */
 
 body {
     font-family: Arial, sans-serif;
@@ -14,9 +14,9 @@ header {
 }
 
 .logo {
-    max-width: 50px; /* Set a smaller size for the logo */
+    max-width: 40px; /* Smaller size for the logo */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 15px; /* Space between logo and title */
+    margin-right: 10px; /* Space between logo and title */
 }
 
 .header-text {
@@ -26,13 +26,13 @@ header {
 
 h1 {
     margin: 0;
-    font-size: 3em; /* Bigger header size */
-    font-family: 'Freckle Face', cursive; /* Use the funky font */
+    font-size: 2.5em; /* Adjusted header size */
+    font-family: 'Baloo Bhaijaan 2', cursive; /* Classy bubble font */
 }
 
 h2 {
     margin: 0;
-    font-size: 1.2em; /* Subheader size */
+    font-size: 1em; /* Adjusted subheader size */
     color: #555; /* A slightly darker color for the subheader */
 }
 
@@ -43,9 +43,9 @@ nav {
 button {
     display: block; /* Make buttons span full width */
     width: 100%; /* Full width */
-    background-color: #f0a3a4; /* Button color */
-    color: white;
-    border: none;
+    background-color: white; /* White button color */
+    color: black; /* Black text color */
+    border: 2px solid black; /* Black border */
     border-radius: 5px;
     padding: 15px 20px; /* Increased padding for bigger buttons */
     margin: 5px 0; /* Space between buttons */
@@ -54,5 +54,6 @@ button {
 }
 
 button:hover {
-    background-color: #e07f80; /* Darker shade on hover */
+    background-color: black; /* Black background on hover */
+    color: white; /* White text on hover */
 }
