@@ -12,13 +12,13 @@ header {
 }
 
 .logo {
-    width: 50px; /* Make the logo small */
-    height: auto;
-    margin-right: 20px; /* Space between logo and title */
+    width: 30px; /* Set a smaller size for the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and title */
 }
 
 .header-text {
-    text-align: center; /* Center align header text */
+    text-align: left; /* Align header text to the left */
     flex-grow: 1; /* Allow header text to take remaining space */
 }
 
