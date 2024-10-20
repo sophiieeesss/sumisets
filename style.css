@@ -3,31 +3,33 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    text-align: center; /* Center align all text */
 }
 
 header {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center header content */
-    background-color: #ffcccb; /* Pastel color for the header */
     padding: 20px;
 }
 
 .logo {
-    width: 50px; /* Make the logo smaller */
+    width: 50px; /* Make the logo small */
     height: auto;
     margin-right: 20px; /* Space between logo and title */
 }
 
+.header-text {
+    text-align: center; /* Center align header text */
+    flex-grow: 1; /* Allow header text to take remaining space */
+}
+
 h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2.5em; /* Header size */
 }
 
 h2 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.2em; /* Subheader size */
     color: #555; /* A slightly darker color for the subheader */
 }
 
@@ -45,6 +47,11 @@ button {
     cursor: pointer;
     font-size: 1em;
 }
+
+button:hover {
+    background-color: #e07f80; /* Darker shade on hover */
+}
+
 
 button:hover {
     background-color: #e07f80; /* Darker shade on hover */
